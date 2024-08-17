@@ -1,6 +1,6 @@
 name: roslyn
 description: |
-  The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.
+  The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs
 homepage: https://github.com/dotnet/roslyn
 licenses:
   - MIT
