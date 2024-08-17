@@ -25,7 +25,8 @@
             allowedVersions: "!/0\\.0\\.19/"
         },
         {
-          "automerge": true
+            "matchUpdateTypes": ["minor", "patch", "major"],
+            "automerge": true
         }
     ],
     "ignoreDeps": [
