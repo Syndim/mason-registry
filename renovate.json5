@@ -1,6 +1,5 @@
 {
     extends: ["github>mason-org/registry-renovate-config"],
-
     packageRules: [
         {
             matchDepNames: ["cucumber-language-server"],
@@ -23,13 +22,10 @@
         {
             matchDepNames: ["autotools-language-server"],
             allowedVersions: "!/0\\.0\\.19/"
-        },
-        {
-            "matchUpdateTypes": ["minor", "patch", "major"],
-            "automerge": true
         }
     ],
     "ignoreDeps": [
         "rescript-lsp"
-    ]
+    ],
+    "automerge": true
 }
