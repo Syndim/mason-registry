@@ -27,5 +27,6 @@
     "ignoreDeps": [
         "rescript-lsp"
     ],
-    "automerge": true
+    "automerge": true,
+    "ignoreTests": true
 }
