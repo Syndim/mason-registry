@@ -9,6 +9,7 @@ languages:
 categories:
   - LSP
 source:
+  # renovate:versioning=loose
   id: pkg:github/Crashdummyy/roslynLanguageServer@4.12.0-3.24476.8
   asset:
     - target: darwin_x64
