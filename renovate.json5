@@ -22,6 +22,15 @@
         {
             matchDepNames: ["autotools-language-server"],
             allowedVersions: "!/0\\.0\\.19/"
+        },
+        {
+            matchDepNames: ["roslyn"],
+            allowedVersions: "*"
+        },
+        {
+            matchPackagePatterns: ["*"],
+            matchUpdateTypes: ["major", "minor", "patch", "pin", "pinDigest", "digest", "lockFileMaintenance", "rollback", "bump", "replacement"],
+            enabled: true
         }
     ],
     "ignoreDeps": [
