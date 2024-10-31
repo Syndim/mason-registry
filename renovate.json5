@@ -28,6 +28,10 @@
             allowedVersions: "*"
         },
         {
+            matchDepNames: ["rzls"],
+            allowedVersions: "*"
+        },
+        {
             matchPackagePatterns: ["*"],
             matchUpdateTypes: ["major", "minor", "patch", "pin", "pinDigest", "digest", "lockFileMaintenance", "rollback", "bump", "replacement"],
             enabled: true
